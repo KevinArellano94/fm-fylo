@@ -1,0 +1,65 @@
+:root {
+  --dark-blue-intro: hsl(217, 28%, 15%);
+  --dark-blue-main: hsl(218, 28%, 13%);
+  --dark-blue-footer: hsl(216, 53%, 9%);
+  --dark-blue-testimonials: hsl(219, 30%, 18%);
+  --cyan: hsl(176, 68%, 64%);
+  --blue: hsl(198, 60%, 50%);
+  --light-red: hsl(0, 100%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --font-primary: "Raleway", "sans-serif";
+  --font-secondary: "Open Sans", "sans-serif";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark-blue-intro);
+  color: var(--white);
+  font-family: var(--font-primary);
+}
+
+.header {
+  display: flex;
+  padding: 0 20px;
+  margin: 20px 0 0 0;
+  font-size: 0.8rem;
+}
+
+.header .header_logo_container {
+  width: 40%;
+}
+
+.header .header_logo_container img {
+  width: 60%;
+}
+
+.header .header_nav {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.header .header_nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100%;
+  width: 100%;
+  list-style: none;
+}
+
+.header .header_nav ul > a {
+  height: 100%;
+  margin: 0 0 0 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  text-decoration: none;
+}
