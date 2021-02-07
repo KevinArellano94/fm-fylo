@@ -27,7 +27,6 @@ body {
   display: flex;
   padding: 0 20px;
   margin: 20px 0 0 0;
-  font-size: 0.8rem;
 }
 
 .header .header_logo_container {
@@ -43,6 +42,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  font-size: 0.8rem;
 }
 
 .header .header_nav ul {
@@ -62,4 +62,76 @@ body {
   align-items: center;
   color: var(--white);
   text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero .hero_img {
+  max-width: 375px;
+  margin: 42px auto;
+}
+
+.hero .hero_img img {
+  max-width: 304px;
+}
+
+.hero .hero_title {
+  max-width: 320px;
+  margin: 0 auto 24px;
+}
+
+.hero .hero_description {
+  max-width: 280px;
+  margin: 0 auto 24px;
+  font-size: 0.8rem;
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+
+.hero .hero_cta {
+  width: 240px;
+  height: 48px;
+  margin: 0 auto;
+  border-radius: 4rem;
+  border: none;
+  outline: none;
+  background: linear-gradient(to right, var(--cyan), var(--blue));
+  color: var(--white);
+  font-weight: 700;
+  font-size: 0.9rem;
+  font-family: var(--font-primary);
+}
+
+.features {
+  max-width: 320px;
+  margin: 132px auto 0;
+}
+
+.features .feature {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 24px 0 64px 0;
+}
+
+.features .feature .feature_img {
+  max-width: 80px;
+}
+
+.features .feature .feature_title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 24px 0 0 0;
+}
+
+.features .feature .feature_description {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  margin: 12px 0 0 0;
 }
