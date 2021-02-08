@@ -18,12 +18,12 @@
 }
 
 body {
-  background-color: var(--dark-blue-main);
+  background-color: var(--dark-blue-intro);
   color: var(--white);
   font-family: var(--font-primary);
-  /* background-image: url("../images/bg-curvy-mobile.svg");
-  background-repeat: no-repeat;
-  background-size: cover; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
 }
 
 .header {
@@ -71,8 +71,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 320px;
+  max-width: 100%;
   margin: 0 auto;
+  background-image: url("../images/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
 }
 
 .hero {
@@ -83,19 +87,31 @@ body {
 
 .hero .hero_img {
   max-width: 375px;
-  margin: 42px auto;
+  /* margin: 42px auto 0; */
 }
 
 .hero .hero_img img {
   max-width: 304px;
+  margin: 0 auto;
 }
 
-.hero .hero_title {
-  max-width: 320px;
+.hero_text_container {
+  background-color: var(--dark-blue-main);
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 42px 0 0 0;
+}
+
+.hero_text_container .hero_title {
+  max-width: 310px;
   margin: 0 auto 24px;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
 }
 
-.hero .hero_description {
+.hero_text_container .hero_description {
   max-width: 280px;
   margin: 0 auto 24px;
   font-size: 0.8rem;
@@ -104,7 +120,7 @@ body {
   line-height: 1.4rem;
 }
 
-.hero .hero_cta {
+.hero_text_container .hero_cta {
   width: 240px;
   height: 48px;
   margin: 0 auto;
@@ -118,9 +134,13 @@ body {
   font-family: var(--font-primary);
 }
 
+.container {
+  background-color: var(--dark-blue-main);
+}
+
 .features {
   max-width: 320px;
-  margin: 132px auto 0;
+  margin: 0 auto;
 }
 
 .features .feature {
@@ -128,7 +148,11 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  margin: 24px 0 64px 0;
+  padding: 24px 0 64px 0;
+}
+
+.features .top-feature {
+  padding-top: 132px;
 }
 
 .features .feature .feature_img {
@@ -151,7 +175,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 124px 0 32px;
+  max-width: 320px;
+  margin: 124px auto 32px;
 }
 
 .description .description_img {
