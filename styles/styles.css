@@ -264,3 +264,134 @@ body {
 .testimonial_footer .testimonial_charge {
   font-size: 0.5rem;
 }
+
+.footer {
+  background-color: var(--dark-blue-footer);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 210px;
+  padding-bottom: 42px;
+}
+
+.footer .footer_description {
+  background-color: var(--dark-blue-main);
+  width: 336px;
+  margin-top: -140px;
+  padding: 36px 36px 18px 36px;
+  text-align: center;
+  box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+.footer_description h3 {
+  font-size: 1rem;
+}
+
+.footer_description > p {
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  margin: 18px 0 0 0;
+  font-family: var(--font-secondary);
+}
+
+.form {
+  margin: 20px 0 0 0;
+}
+
+.form input,
+button {
+  width: 100%;
+  height: 36px;
+  padding: 0 32px;
+  border-radius: 64px;
+  border: none;
+}
+
+.form input {
+  font-size: 0.7rem;
+  outline: none;
+}
+
+.form button {
+  background: linear-gradient(to right, var(--cyan), var(--blue));
+  color: var(--white);
+  font-size: 0.7rem;
+  outline: none;
+}
+
+.mobile_error,
+.desktop_error {
+  visibility: hidden;
+}
+
+.mobile_error {
+  font-size: 0.6rem;
+  line-height: 1.4rem;
+  color: var(--light-red);
+  text-align: left;
+  padding: 0 0 0 18px;
+  font-weight: 700;
+}
+
+.footer_down {
+  width: 336px;
+}
+
+.footer_down .footer_logo {
+  width: 100%;
+  margin: 72px 0 36px 0;
+}
+
+.footer_down .footer_logo img {
+  width: 108px;
+  height: 32px;
+}
+
+.footer_down .footer_location {
+  display: flex;
+}
+
+.footer_location figure {
+  margin: 0 24px 0 0;
+}
+
+.footer_location > p {
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+}
+
+.footer_down .footer_contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_contact .contact {
+  display: flex;
+  align-items: center;
+  margin: 16px 0 0 0;
+}
+
+.contact figure {
+  margin: 0 22px 0 0;
+}
+
+.contact > p {
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+}
+
+.footer_down .links {
+  margin: 36px 0 0 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 0.8rem;
+  line-height: 2rem;
+}
+
+.links a li {
+  list-style: none;
+}
