@@ -1,0 +1,371 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  margin: 46px 0 92px 0;
+}
+
+.header .header_logo_container {
+  width: 40%;
+}
+
+.header .header_logo_container img {
+  width: 20%;
+}
+
+.header .header_nav {
+  width: 20%;
+  font-size: 1rem;
+}
+
+.main {
+  background: none;
+}
+
+.hero .hero_img {
+  max-width: 620px;
+}
+
+.hero .hero_img img {
+  max-width: 600px;
+}
+
+.hero_text_container {
+  background-color: var(--dark-blue-intro);
+  background-image: url("../images/bg-curvy-desktop.svg");
+  background-position: top center;
+  background-size: cover;
+}
+
+.hero_text_container .hero_title {
+  max-width: 540px;
+  margin: 0 auto 32px;
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.hero_text_container .hero_description {
+  max-width: 480px;
+  margin: 0 auto 42px;
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+.hero_text_container .hero_cta {
+  width: 280px;
+  height: 64px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.hero_text_container .hero_cta:hover {
+  background: linear-gradient(to right, var(--cyan), var(--cyan));
+}
+
+.features {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 200px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.features .feature {
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 24px 0 64px 0;
+  margin: 0 46px;
+}
+
+.features .top-feature {
+  padding-top: 30px;
+}
+
+.features .feature .feature_img {
+  max-width: 80px;
+}
+
+.features .feature .feature_title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 24px 0 0 0;
+}
+
+.features .feature .feature_description {
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  margin: 12px 0 0 0;
+}
+
+.description {
+  flex-direction: row;
+  max-width: 1100px;
+  margin: 124px auto 32px;
+}
+
+.description .description_img {
+  width: 70%;
+}
+
+.description .description_text_container {
+  margin: 32px 0 0 64px;
+}
+
+.description_text_container .description_title {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.description_text_container .description_text {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+.description_text_container .description_cta_container {
+  display: flex;
+  height: 24px;
+  max-width: 180px;
+  border-bottom: solid 1px var(--cyan);
+}
+
+.description_cta_container a {
+  color: var(--cyan);
+  font-size: 0.9rem;
+  margin: 0 20px 0 0;
+  text-decoration: none;
+}
+
+.description_cta_container a:hover {
+  color: white;
+}
+
+.description_cta_container:hover {
+  border-bottom: solid 1px white;
+}
+
+.description_cta_container img {
+  max-width: 22px;
+  max-height: 22px;
+}
+
+.testimonials {
+  max-width: 1100px;
+  flex-direction: row;
+  justify-content: space-around;
+  background-position: 18px 72px;
+  background-size: 42px;
+  margin: 0 auto;
+}
+
+.testimonials .testimonial {
+  max-width: 320px;
+  padding: 24px;
+  margin-bottom: 28px;
+  border-radius: 8px;
+}
+
+.testimonial .testimonial_text {
+  font-size: 0.7rem;
+  line-height: 1.3rem;
+  font-weight: 400;
+}
+
+.testimonial .testimonial_footer {
+  display: flex;
+  padding: 24px 0 0 0;
+  /* justify-content: center; */
+}
+
+.testimonial .testimonial_footer img {
+  width: 32px;
+  height: 32px;
+  margin: 0 12px 0 0;
+  border-radius: 50%;
+}
+
+.testimonial_footer .testimonial_name {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.testimonial_footer .testimonial_charge {
+  font-size: 0.6rem;
+}
+
+.footer {
+  background-color: var(--dark-blue-footer);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 210px;
+  padding-bottom: 42px;
+}
+
+.footer .footer_description {
+  width: 800px;
+  padding: 48px 48px 28px 48px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_description h3 {
+  font-size: 1.4rem;
+}
+
+.footer_description > p {
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  margin: 18px 0 0 0;
+  font-family: var(--font-secondary);
+  max-width: 620px;
+}
+
+.form {
+  margin: 32px 0 0 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form input,
+button {
+  width: 100%;
+  height: 48px;
+  padding: 0 32px;
+  border-radius: 64px;
+  border: none;
+}
+
+.form input {
+  font-size: 0.7rem;
+  outline: none;
+  width: 400px;
+  margin: 0 56px 0 24px;
+}
+
+.form button {
+  background: linear-gradient(to right, var(--cyan), var(--blue));
+  color: var(--white);
+  font-size: 0.7rem;
+  outline: none;
+  width: 220px;
+}
+
+.mobile_error,
+.desktop_error {
+  visibility: hidden;
+}
+
+.mobile_error {
+  display: none;
+}
+
+.desktop_error {
+  font-size: 0.8rem;
+  line-height: 1.6rem;
+  color: var(--light-red);
+  padding: 8px 0 0 48px;
+  font-weight: 700;
+}
+
+.footer_down {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer_down .footer_logo {
+  width: 1100px;
+  margin: 72px 0 36px 0;
+}
+
+.footer_down .footer_logo img {
+  width: 108px;
+  height: 32px;
+}
+
+.footer_down .footer_location {
+  display: flex;
+  width: 30%;
+  padding: 0 42px 0 0;
+}
+
+.footer_location figure {
+  margin: 0 24px 0 0;
+}
+
+.footer_location > p {
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+}
+
+.footer_down .footer_contact {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.footer_contact .contact {
+  display: flex;
+  align-items: center;
+  margin: 0px 0 16px 0;
+}
+
+.contact figure {
+  margin: 0 22px 0 0;
+}
+
+.contact > p {
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+}
+
+.footer_down .links {
+  margin: 0px 0 0 0;
+  width: 15%;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 0.8rem;
+  line-height: 2rem;
+}
+
+.links a li {
+  list-style: none;
+}
+
+.rrss {
+  display: flex;
+  margin: 0px 0 0 0;
+  width: 17%;
+}
+
+.rrss figure {
+  width: 40px;
+  height: 40px;
+  margin: 0 12px;
+  border-radius: 50%;
+  border: solid 2px var(--white);
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rrss figure:hover {
+  border-color: var(--cyan);
+}
+
+.rrss figure img {
+  width: 16px;
+  height: 16px;
+}
